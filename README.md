@@ -1,5 +1,7 @@
 # 📋 Social Survey Management System
 
+🇧🇷 Português | [🇺🇸 English](README.en.md) | [🇪🇸 Español](README.es.md)
+
 > Sistema de gestão de lista de espera iniciado em 2025 a partir de uma demanda operacional real. Integra Google Forms, Google Sheets e Google Apps Script para organizar cadastros, analisar demanda reprimida e apoiar a gestão por dados.
 
 ## 💼 Origem do projeto
