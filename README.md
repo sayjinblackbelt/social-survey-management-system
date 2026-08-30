@@ -151,10 +151,19 @@ A implementação deve observar as regras de privacidade e os princípios aplic�
 
 ## 👨‍💻 Autor
 
-**Filipe Gimenes de Morais**
+**Filipe G Morais**
 
 Projeto técnico iniciado a partir de uma necessidade real de gestão e desenvolvido continuamente como solução prática e laboratório de automação.
 
 ---
 
 **Tecnologia aplicada à gestão: compreender o problema, estruturar o processo, automatizar o que faz sentido e medir o resultado.**
+
+---
+
+## Author
+
+**Filipe G Morais**
+
+GitHub: https://github.com/sayjinblackbelt  
+Repository: https://github.com/sayjinblackbelt/social-survey-management-system
