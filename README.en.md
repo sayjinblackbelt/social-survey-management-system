@@ -134,6 +134,16 @@ Implementation should follow applicable privacy and data-protection principles, 
 
 ## 👨‍💻 Author
 
-**Filipe Gimenes de Morais**
+**Filipe G Morais**
 
 A technical project born from a real management need and continuously developed as a practical solution and automation laboratory.
+
+
+---
+
+## Author
+
+**Filipe G Morais**
+
+GitHub: https://github.com/sayjinblackbelt  
+Repository: https://github.com/sayjinblackbelt/social-survey-management-system
