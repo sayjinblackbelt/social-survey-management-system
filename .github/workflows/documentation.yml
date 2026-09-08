@@ -1,0 +1,37 @@
+name: Documentation CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate required documentation
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s README.md
+          test -s README.en.md
+          test -s README.es.md
+          grep -q "Filipe G Morais" README.md
+          grep -q "Filipe G Morais" README.en.md
+          grep -q "Filipe G Morais" README.es.md
+          grep -q "https://github.com/sayjinblackbelt" README.md
+          grep -q "https://github.com/sayjinblackbelt" README.en.md
+          grep -q "https://github.com/sayjinblackbelt" README.es.md
+
+      - name: Check for likely personal-data files
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -Eiq '(^|/)(.*\.(xlsx|xls|csv)|.*(respostas|dados.?pessoais|levantamentos).*)$'; then
+            echo "Potential personal-data file detected in repository."
+            exit 1
+          fi
