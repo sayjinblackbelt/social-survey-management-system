@@ -167,3 +167,5 @@ Projeto técnico iniciado a partir de uma necessidade real de gestão e desenvol
 
 GitHub: https://github.com/sayjinblackbelt  
 Repository: https://github.com/sayjinblackbelt/social-survey-management-system
+
+<!-- Documentation CI trigger: 2026-09-08 -->
